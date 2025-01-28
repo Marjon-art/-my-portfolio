@@ -1,0 +1,77 @@
+.main_skills {
+    margin-top: 130px;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.header_menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -5px;
+}
+
+li {
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 10px;
+    width: 150px;
+    color: rgb(231, 228, 229);
+    text-align: center;
+    list-style-type:  none;
+    
+   
+}
+
+li:hover {
+    background-color: rgb(232, 72, 187);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+    border-radius: 20px;
+
+}
+
+
+ul.no-bullets li::before {
+    content: '✓';
+    margin-right: 5px;
+
+  }
+
+ul {
+    list-style-type:  none;
+}
+
+img {
+    width: 50px;
+}
+.skills {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.list_skills {
+    text-align: center;
+    color: #fff;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* Добавим цвет и ширину блока для наглядности*/
+  background-color: #bfa5b9;
+  width: 100%;
+  height: 100px;
+}
