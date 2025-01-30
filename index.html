@@ -3,35 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>my Portfolio</title>
+    <title>Frontend Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css"></link>
 </head>
-<body>
-    <div class="container" id="container">
-        <div class="header">
-                <ul class="header_menu">
-                    <li>Домой</li>
-                    <li><a href="skills.html">Мои новыки</a></li>
-                    <li>Обо мне</li>
-                    <li>Проекты</li>
-                    <li>Контакты</li>
-                </ul>
-        </div>
-        <div class="main">
-             <div class="info_main">
-                <div class="name">Марджона Абдуллаева</div>
-                <div class="speciality">Frontend Developer</div>
-                <div class="text">Привет Я веб-разработчик, разрабатываю сайты.</div>
-                <button class="btn">Предложить Проект</button>
-             </div>
-        </div>
-        <div class="footer">
-            
-        </div>
-     </div>
+<body class="dark">
+    <div class="nav">
+        <div class="container">
+            <div class="nav_rov">
+                <a href="./index.html" class="logo">
+                    <strong>Frontend</strong> portfolio
+                </a>
+                <button class="darc-mode-btn darc-mode-btn--active">
+                    <img src="./css/img/icons/солнце.svg" alt="Sun.svg" class="darc-mode-btn__icon">
+                    <img src="./css/img/icons/Moon.svg" alt="Moon.svg" class="darc-mode-btn__icon">
 
-     <script src="three.min.js"></script>
-     <script src="vanta.birds.min.js"></script>
-     <script src="app.js"></script>
+                </button>
+
+                <ul class="nav_list">
+                    <li class="nav-list_item"><a href="./index.html" class="nav-list_link nav-list_link--active">Projects</a></li>
+                    <li class="nav-list_item"><a href="./scills.html" class="nav-list_link">Skills</a></li>
+                    <li class="nav-list_item"><a href="./contacts.html" class="nav-list_link">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_title">
+                <h1><strong>Привет, меня зовут <em>Марджона</em></strong><br>Я frontend developer</h1>
+            </div>
+            <div class="header_text">
+                <p>Разрабатываю сайты</p>
+            </div>
+            <a href="#!" class="btn">Посмотреть проект</a>
+        </div>     
+    </div>
+    <main class="section">
+        <div class="container">
+            <h2 class="title-1">Projects</h2>
+            <ul class="projects">
+                <li class="project">
+                    <a href="./progect-page.html">
+                    <img src="./css/img/projects/car_img.avif" class="project__img"></a>
+                    <a href="https://marjon-art.github.io/car_Veb/"><h3 class="project__title">Car website</h3></a>
+                </li>
+                <li class="project">
+                    <a href="./progect-page.html">
+                    <img src="./css/img/projects/demo.gif" class="project__img"></a>
+                    <a href="https://marjon-art.github.io/tabs-js/"><h3 class="project__title">Tabs</h3></a>
+               
+                </li>
+                <li class="project">
+                    <a href="./progect-page.html">
+                    <img src="./css/img/projects/devo_game.gif" class="project__img"></a>
+                    <a href="https://marjon-art.github.io/Game-Js/"><h3 class="project__title">Game</h3></a>
+                </li>
+            
+                <li class="project">
+                    <img src="./css/img/projects/images.jpeg" class="project__img">
+                   <a href="https://marjon-art.github.io/jurnals/"><h3 class="project__title">Jurnal</h3></a>
+                </li>
+                <li class="project">
+                    <img src="./css/img/projects/istockphoto-1384700413-612x612.jpg" class="project__img">
+                   <a href="https://marjon-art.github.io/DnD/"><h3 class="project__title">Todo List</h3></a>
+                </li>
+                <li class="project">
+                    <img src="./css/img/projects/images (1).jpeg" class="project__img">
+                   <a href="https://marjon-art.github.io/geo/"><h3 class="project__title">Geo</h3></a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="#!"><img src="./css/img/icons/VK.svg"></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#!"><img src="./css/img/icons/Insta.svg"></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#!"><img src="./css/img/icons/Git.svg"></a>
+                    </li>
+                </ul>
+                <div class="copirayter">
+                    2025 frontend-dev.com
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./css/js/main.js"></script>
 </body>
 </html>
